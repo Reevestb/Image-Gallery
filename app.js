@@ -62,6 +62,7 @@ function myFunction() {
   img.src = images[0].src;
   img.alt = images[0].alt;
   img.id = "bigImage";
+  img.tabIndex = 1;
   displayImage.appendChild(img);
 }
 myFunction();
